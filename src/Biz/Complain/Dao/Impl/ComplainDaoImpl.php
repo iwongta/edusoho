@@ -7,6 +7,7 @@ use Codeages\Biz\Framework\Dao\AdvancedDaoImpl;
 class ComplainDaoImpl extends AdvancedDaoImpl implements ComplainDao {
     protected $table = 'complain';
 
+
     public function declares()
     {
         return array(
