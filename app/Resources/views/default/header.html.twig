@@ -1,7 +1,7 @@
 {% do script(['app/js/default/header/index.js']) %}
 {% set navigations = data('NavigationsTree', {}) %}
 
-<header class="es-header navbar">
+<header class="es-header navbar" style="position: fixed;right: 0;left: 0">
   {% include 'default/header/logo.html.twig' %}
   <nav class="collapse navbar-collapse">
     <ul class="nav navbar-nav clearfix hidden-xs " id="nav">
