@@ -613,6 +613,15 @@ admin:
                         admin_keyword_banlogs:
                             name: admin.operation.sensitive_words.banlogs_tab
                             disable: true
+                admin_operation_complain:
+                    name: admin.operation.complain_menu
+                    parent: admin_operation
+                    group: 5
+                    children:
+                        admin_operation_complain_manage:
+                            name: admin.operation.complain.basic_tab
+                            disable: true
+                            router_name: admin_complain
         admin_finance:
             name: admin.nav.finance
             children:

@@ -56,6 +56,8 @@
 
           </div>
           {% block detail_content %}
+            {{ dump(metas.tabs[tab]) }}
+
             {{ render(controller(metas.tabs[tab].content, {request: app.request, course: course, member: member|default(null)})) }}
           {% endblock %}
         </section>

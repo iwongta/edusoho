@@ -1,39 +1,52 @@
 {
-  "name": "codeages-design",
-  "version": "0.1.7",
-  "description": "a Web Design Language",
-  "main": "src/codeages-design.js",
-  "scripts": {
-    "dev": "webpack --watch",
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "codeages-design@0.1.7",
+  "_id": "codeages-design@0.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-jazlzU2Jr2lkx32/j11RHoPqCbMCVReWFTieHv6KjEg/niTNOD0webTGWgYWC1YSXPkEADvZmAZGb5l2UmOXtw==",
+  "_location": "/codeages-design",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "codeages-design@0.1.7",
+    "name": "codeages-design",
+    "escapedName": "codeages-design",
+    "rawSpec": "0.1.7",
+    "saveSpec": null,
+    "fetchSpec": "0.1.7"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codeages-design/codeages-design.git"
-  },
-  "keywords": [
-    "component"
+  "_requiredBy": [
+    "/"
   ],
-  "author": "Joe Zhong, Benz Lee",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codeages-design/codeages-design/issues"
+  "_resolved": "https://registry.npmjs.org/codeages-design/-/codeages-design-0.1.7.tgz",
+  "_shasum": "446460d9e623b9476f79e31b2804a63e71948d6a",
+  "_spec": "codeages-design@0.1.7",
+  "_where": "/Users/wt/Documents/edusoho",
+  "author": {
+    "name": "Joe Zhong, Benz Lee"
   },
-  "homepage": "https://github.com/codeages-design/codeages-design#readme",
   "babel": {
     "presets": [
-      ["env", {
-        "modules": false
-      }],
+      [
+        "env",
+        {
+          "modules": false
+        }
+      ],
       "stage-0"
     ],
     "plugins": [],
     "compact": false
   },
+  "bugs": {
+    "url": "https://github.com/codeages-design/codeages-design/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "jquery": "^3.2.1"
   },
+  "deprecated": false,
+  "description": "a Web Design Language",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -51,5 +64,22 @@
     "style-loader": "^0.19.0",
     "url-loader": "^0.6.2",
     "webpack": "^3.8.1"
-  }
+  },
+  "homepage": "https://github.com/codeages-design/codeages-design#readme",
+  "keywords": [
+    "component"
+  ],
+  "license": "MIT",
+  "main": "src/codeages-design.js",
+  "name": "codeages-design",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeages-design/codeages-design.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.7"
 }

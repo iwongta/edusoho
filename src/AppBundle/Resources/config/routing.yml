@@ -3136,3 +3136,12 @@ client_time_check:
 drag_captcha:
     path:     /drag_captcha/{token}
     defaults: { _controller: AppBundle:Common:dragCaptcha }
+
+complain_index:
+    path:     /complain/index
+    defaults: { _controller: AppBundle:Complain/Complain:index }
+
+complain_submit:
+    path:     /complain/submit
+    defaults: { _controller: AppBundle:Complain/Complain:submit }
+    methods: [POST]

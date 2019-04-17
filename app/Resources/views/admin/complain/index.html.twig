@@ -1,0 +1,41 @@
+{% extends 'admin/layout.html.twig' %}
+
+{% set menu = 'admin_operation_complain_manage' %}
+
+{% block page_buttons %}
+
+{% endblock %}
+
+{% block main %}
+
+  <table class="table table-hover" id="content-table">
+    <thead>
+    <tr>
+      <th width="20%">{{'学员'|trans}}</th>
+      <th width="60%">{{'投诉内容'|trans}}</th>
+      <th>{{'提交时间'|trans}}</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% if complains %}
+      {% for complain in complains %}
+        {% set user = users[complain.adminId] %}
+
+        <tr id="content-{{ complain.id }}">
+          <td>
+            {{ user.nickname }}
+          </td>
+          <td>{{ complain.context|trans }}</td>
+          <td>
+            {{ complain.createdTime|date('Y-n-d H:i') }}<br />
+          </td>
+
+      {% endfor %}
+    {% else %}
+      <tr><td colspan="20"><div class="empty">{{'暂无投诉'|trans}}</div></td></tr>
+    {% endif %}
+    </tbody>
+  </table>
+
+  {{ admin_macro.paginator(paginator) }}
+{% endblock %}

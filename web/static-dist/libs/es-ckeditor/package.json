@@ -1,12 +1,38 @@
 {
-  "name": "es-ckeditor",
-  "version": "4.7.2-patch7",
-  "description": "CKEditor-based implementation and add some plugins, For example kityformula etc.",
-  "main": "ckeditor.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cd-fez/es-ckeditor.git"
+  "_from": "es-ckeditor@4.7.2-patch7",
+  "_id": "es-ckeditor@4.7.2-patch7",
+  "_inBundle": false,
+  "_integrity": "sha512-7XaTAo46KaSGAGUFJlYRMd9KrAce1hr9f1sY4tAlRyBAECfiILscMd7a1HIGpTrC8fKMpeqL1YH/+6oLFAGJPg==",
+  "_location": "/es-ckeditor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "es-ckeditor@4.7.2-patch7",
+    "name": "es-ckeditor",
+    "escapedName": "es-ckeditor",
+    "rawSpec": "4.7.2-patch7",
+    "saveSpec": null,
+    "fetchSpec": "4.7.2-patch7"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/es-ckeditor/-/es-ckeditor-4.7.2-patch7.tgz",
+  "_shasum": "b7ce229e667a9b18277afc561a6353f68448a0a4",
+  "_spec": "es-ckeditor@4.7.2-patch7",
+  "_where": "/Users/wt/Documents/edusoho",
+  "author": {
+    "name": "CKSource",
+    "url": "http://cksource.com/"
+  },
+  "bugs": {
+    "url": "http://dev.ckeditor.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "CKEditor-based implementation and add some plugins, For example kityformula etc.",
+  "homepage": "http://ckeditor.com",
   "keywords": [
     "ckeditor",
     "fckeditor",
@@ -17,10 +43,12 @@
     "text",
     "javascript"
   ],
-  "author": "CKSource (http://cksource.com/)",
   "license": "(GPL-2.0 OR LGPL-2.1 OR MPL-1.1)",
-  "bugs": {
-    "url": "http://dev.ckeditor.com"
+  "main": "ckeditor.js",
+  "name": "es-ckeditor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cd-fez/es-ckeditor.git"
   },
-  "homepage": "http://ckeditor.com"
+  "version": "4.7.2-patch7"
 }

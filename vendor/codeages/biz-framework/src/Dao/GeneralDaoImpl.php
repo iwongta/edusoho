@@ -78,7 +78,6 @@ abstract class GeneralDaoImpl implements GeneralDaoInterface
         $builder = $this->createQueryBuilder($conditions)
             ->setFirstResult($start)
             ->setMaxResults($limit);
-
         $this->addSelect($builder, $columns);
 
         $declares = $this->declares();
@@ -111,7 +110,6 @@ abstract class GeneralDaoImpl implements GeneralDaoInterface
     {
         $builder = $this->createQueryBuilder($conditions)
             ->select('COUNT(*)');
-
         return (int) $builder->execute()->fetchColumn(0);
     }
 

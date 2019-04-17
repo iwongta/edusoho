@@ -2372,3 +2372,7 @@ admin_wechat_app_access:
 admin_course_tag_match:
   path:  /course_set/tag/match
   defaults: { _controller: AppBundle:Admin/CourseSet:courseTagMatch }
+
+admin_complain:
+    path:     /complain
+    defaults: { _controller: AppBundle:Admin/Complain:index }

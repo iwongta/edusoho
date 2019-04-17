@@ -140,6 +140,10 @@ admin.operation.analysis_menu: 数据统计
 admin.operation.sensitive_words_menu: 敏感词管理
 admin.operation.reward_point_menu:　积分管理
 admin.operation.reward_point_mall_menu: 积分商城
+admin.operation.complain_menu: 投诉管理
+
+##投诉
+admin.operation.complain.basic_tab: 投诉管理
 
 ##资讯管理模块
 admin.operation.article.basic_tab: 资讯管理

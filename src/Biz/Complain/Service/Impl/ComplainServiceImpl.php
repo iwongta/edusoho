@@ -1,5 +1,5 @@
 <?php
-namespace Biz\Complain\Impl\Service;
+namespace Biz\Complain\Service\Impl;
 
 use AppBundle\Common\ArrayToolkit;
 use Biz\Complain\Service\ComplainService;
