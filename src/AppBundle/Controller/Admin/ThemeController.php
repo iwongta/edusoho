@@ -56,7 +56,6 @@ class ThemeController extends BaseController
 
         $this->getThemeService()->resetCurrentConfig();
         $themeConfig = $this->getThemeService()->getCurrentThemeConfig();
-
         return $this->render(
             'admin/theme/edit.html.twig',
             array(

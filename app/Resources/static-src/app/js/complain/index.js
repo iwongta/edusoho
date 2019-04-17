@@ -4,7 +4,7 @@ if ($form.length > 0) {
     let self = $(this);
     self.button('loading');
     $.post($form.attr('action'), $form.serialize())
-      .success(() => {
+      .success((response) => {
         $form.find('.js-review-remind').fadeIn('fast', function () {
           window.location.href = window.location.origin;
         });

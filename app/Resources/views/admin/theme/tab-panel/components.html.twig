@@ -3,7 +3,6 @@
 {% set orginAllConfig = array_index(allBlockConfig, 'id') %}
 {% set blockConfig = array_index(blockConfig, 'id')  %}
 {% set allBlockConfig = orginAllConfig|merge(blockConfig) %}
-
 <div class="hide js-componet-setting" data-key="{{ configKey }}">
   {{ allBlockConfig|json_encode|raw }}
 </div>
@@ -26,7 +25,7 @@
             {% include 'admin/theme/theme-edit-config-li.html.twig' with {isChoiced: true} %}
           {% endif %}
         {% endfor %}
-        
+
         {% for key, pendant in allBlockConfig %}
           {% if not blockConfig[key]|default() %}
             {% include 'admin/theme/theme-edit-config-li.html.twig' with {isChoiced: false} %}

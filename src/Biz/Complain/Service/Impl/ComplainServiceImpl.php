@@ -17,7 +17,6 @@ class ComplainServiceImpl extends BaseService implements ComplainService {
             )
         );
         $complain['adminId'] = $this->getCurrentUser()->getId();
-
         $created = $this->getComplainDao()->create($complain);
 
         return $created;
